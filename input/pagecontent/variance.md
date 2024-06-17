@@ -12,15 +12,15 @@ The AU Base and AU Core variance process is currently being developed: [https://
 
 ### Example: A FHIR IG states no variance from AU Base and AU Core
 > #### Variance from AU Base
-> This implementation guide has no variance from AU Base FHIR implementation guide version 4.2.0-preview.  
+> This implementation guide has no variance (i.e. fully compliant) from AU Base FHIR Implementation Guide version 4.2.0-preview.  
 >
 > #### Variance from AU Core
-> This implementation guide has no variance from AU Core FHIR implementation guide version 0.3.0-ballot.  
+> This implementation guide has no variance (i.e. fully compliant) from AU Core FHIR Implementation Guide version 0.3.0-ballot.  
 
 
 ### Example: A FHIR IG states variance from AU Core
 > #### Variance from AU Base
-> This implementation guide has no variance from AU Base FHIR implementation guide version 4.2.0-preview.  
+> This implementation guide has no variance (i.e. fully compliant) from AU Base FHIR Implementation Guide version 4.2.0-preview. 
 >
 > #### Variance from AU Core
 > A summary of variances between profiles defined in this implementation guide and profiles defined in AU Core FHIR IG version 0.3.0-ballot:
@@ -28,8 +28,8 @@ The AU Base and AU Core variance process is currently being developed: [https://
 >   - Cardinality: PractitionerRole.identifier:medicareProvider cardinality is 0..*. Unable to use AU Core PractitionerRole  profile as it supports 0..1 Medicare Provider Number identifier slices.
 >   - Removed Must Support: PractitionerRole.location
 >
-> #### Additional profiles
-> Profiles in this implementation guide that are not in AU Core FHIR IG version 0.3.0-ballot:
-> - [Diagnostic Service Requesting Base](https://build.fhir.org/ig/hl7au/au-fhir-erequesting/branches/scaffold/StructureDefinition-erequesting-diagnostic-request-base.html)
-> - [Diagnostic Service Requesting Pathology](https://build.fhir.org/ig/hl7au/au-fhir-erequesting/branches/scaffold/StructureDefinition-erequesting-diagnosticrequest-pathology.html)
-> - [Diagnostic Service Requesting Radiology](https://build.fhir.org/ig/hl7au/au-fhir-erequesting/branches/scaffold/StructureDefinition-erequesting-diagnosticrequest-radiology.html)
+> #### Additionally Profiled Resources
+This implementation guide profiles the following resources that are not profiled in AU Core:
+>  - [Diagnostic Service Requesting Base](https://build.fhir.org/ig/hl7au/au-fhir-erequesting/branches/scaffold/StructureDefinition-erequesting-diagnostic-request-base.html)
+>  - [Diagnostic Service Requesting Pathology](https://build.fhir.org/ig/hl7au/au-fhir-erequesting/branches/scaffold/StructureDefinition-erequesting-diagnosticrequest-pathology.html)
+>  - [Diagnostic Service Requesting Radiology](https://build.fhir.org/ig/hl7au/au-fhir-erequesting/branches/scaffold/StructureDefinition-erequesting-diagnosticrequest-radiology.html)
