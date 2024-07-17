@@ -1,14 +1,12 @@
-<div class="stu-note" markdown="1">
-The HL7 Australia FHIR Working Group has introduced a [Proposal: AU Base & AU Core Variance process](https://confluence.hl7.org/pages/viewpage.action?pageId=227217286) that sets expectations for all HL7 AU FHIR implementation guides to:
-- be compliant with AU Core profiles. Implementation guides that are unable to comply with AU Base Core profiles are expected to document these variances.
-- to be compliant with AU Base profiles and extensions. Implementation guides that are unable to comply with AU Base profiles or reuse AU Base extensions are expected to document these variances.
+AU Realm FHIR implementation guide projects are required to follow specific publishing guidelines:
+- **SHOULD** use AU Core profiles
+- **SHOULD** use AU Base profiles and extensions
 
-To be compliant with an AU Core profile implies that the profiles within the downstream implementation guides satisfy the expectations established by AU Core profile. Instances that are valid against the downstream implementation guide profile are automatically valid against the AU Core profile. Compliance expectations are set at profile only support, ensuring systems build and conform to defined profiles for data representation without the requirement to implement AU Core interactions. It is important to note that stating compliance with AU Core profiles does not guarantee full conformance.
+If a FHIR implementation guide cannot comply with an AU Core profile or reuse an AU Base extension, or fails to comply with an AU Base profile, it must document the variance.
 
-To be compliant with AU Base, instances that are valid against downstream implementation guide profiles are, by default, considered compliant with the AU Base profile.
+The Variance Statement identifies where an AU Realm FHIR implementation guide does not meet the expectations set by AU Base and/or AU Core. It also identifies resources not profiled in AU Base or AU Core, facilitating the FHIR Work Group's assessment for potential further development. Additionally, the Variance Statement page indicates where the AU Realm FHIR IG fully complies with AU Base or AU Core.
 
-The AU Base and AU Core variance process is currently being developed: [https://confluence.hl7.org/display/HA/**+DRAFT+**+Process%3A++AU+Realm+FHIR+IG+Variance+Requirements](https://confluence.hl7.org/display/HA/**+DRAFT+**+Process%3A++AU+Realm+FHIR+IG+Variance+Requirements). Guidance provided here is subject to change as the process matures.
-</div>
+The Variance Statement undergoes review and assessment by the FHIR Work Group as part of the FHIR IG balloting process. For more details on the requirements of a Variance Statement, refer to [AU FHIR IG Variance Requirements](https://confluence.hl7.org/display/HA/Process%3A++AU+FHIR+IG+Variance+Requirements).
 
 ### Example: A FHIR IG states no variance from AU Base and AU Core
 > #### Variance from AU Base
