@@ -1,2 +1,2 @@
-### Intent of this Implementation Guide
-TBD
+- [General Guidance](general-guidance.html)
+- [AU Variance Statement](variance.html)

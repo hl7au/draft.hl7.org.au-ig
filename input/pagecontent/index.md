@@ -8,24 +8,34 @@ Insert purpose and scope of MyDraftIG here.
 * The content in this proof of concept guide may become an HL7 Australia specification.   
 * This implementation guide is not endorsed by HL7 Australia or any of its members just by being made available via HL7 Australia or because it uses content from HL7 Australia specifications.
 
+### Dependencies
+
+{% include dependency-table.xhtml %}
+{% include expansion-params.xhtml %}
+
 ### How to Read this Guide
 
 This guide is divided into several pages which are listed at the top of each page in the menu bar.
 
 - [Home](index.html): This page provides the introduction and scope for this guide.
-- [Guidance](guidance.html): This page provides guidance on using the profiles defined in this guide.
+- [Guidance](guidance.html): These pages list the guidance for this guide.
+  - [General Guidance](general-guidance.html): This page provides guidance on using the profiles defined in this guide.
+  - [Relationship With Other IGs](relationship.html): This page provides guidance on the relationship between AU Core, AUCDI, and other implementation guides.
+  - [AU Variance Statement](variance.html): This page documents the variance from AU Base and AU Core.
+  - [Future](future.html): This page outlines the approach to developing TBD (e.g. AU Core) and yearly update cycle.
 - [FHIR Artefacts](artifacts.html): These pages provide detailed descriptions and formal definitions for all the FHIR artefacts defined in this guide.
-  - [Profiles and Extensions](profiles-and-extensions.html): This set of pages describes the profiles and extensions that are defined in this guide to represent Australian local concepts using FHIR. Each profile page includes a narrative description, guidance, and formal definition. Although the guidance typically focuses on the profiled elements and seeks to provide a ‘how-to’ guide when representing concepts, it may also may focus on un-profiled elements to aid with implementation.
-  - [Terminology](terminology.html): This set of pages lists the value sets and code systems defined in this guide.
+  - [Artefacts Summary](artifacts.html): This page lists the FHIR artefacts defined in this guide.
+  - [Profiles and Extensions](profiles-and-extensions.html): This page describes the profiles and extensions that are defined in this guide to exchange data. Each profile page includes a narrative description and guidance, formal definition and a "Notes" section that summarises the supported search transactions for each profile. Guidance typically focuses on the profiled elements but can include guidance on un-profiled elements to aid with implementation.
+  - [Terminology](terminology.html): This page lists the value sets and code systems supported in this guide.
 - [Examples](examples.html): This page lists all the examples used in this guide.
-- [Downloads](downloads.html): This page provides links to downloadable artefacts including the AU Base FHIR NPM package.
-
+- [Support](support.html): These pages provide supporting material for implementation of TBD (e.g. AU Core).  
+  - [Downloads](downloads.html): This page provides links to downloadable artefacts.
+  - [License and Legal](license.html): This page outlines the license and legal requirements for material in TBD (e.g. AU Core).
 
 ### Collaboration
 This guide is the product of collaborative work undertaken with participants from:
 
 * TBD
 
-FHIR<sup>&reg;&copy;</sup> connectathon events are key to the verification of the guide as being suitable for 
-implementation. This implementation guide will be used as the basis for Australian connectathon events.
+Primary Editors: TBD.
 

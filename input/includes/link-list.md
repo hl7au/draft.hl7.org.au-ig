@@ -118,7 +118,7 @@
 [MedicationDispense]: {{site.data.fhir.path}}medicationdispense.html
 [MedicationAdministration]: {{site.data.fhir.path}}medicationadministration.html
 [Medications Module]: {{site.data.fhir.path}}medications-module.html
-[MimeType]: http://www.rfc-editor.org/bcp/bcp13.txt#
+[MimeType]: http://www.rfc-editor.org/bcp/bcp13.txt
 [Multi-language support for Narratives]: {{site.data.fhir.path}}narrative.html#lang
 [Must Support]: must-support.html
 [NamingSystem]: {{site.data.fhir.path}}namingsystem.html
